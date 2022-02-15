@@ -1,0 +1,116 @@
+body{
+    margin: 0 auto;
+}
+
+#eu{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;  
+  padding: 5px;
+}
+
+.redes{
+    height: 25px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-principal{
+    background-color: #252323;
+    height: 60px;
+    width: 100%;
+}
+
+.logo{
+    width: 40%;
+    float: left;
+}
+
+.main01{
+    margin: 0 auto;
+    max-width: 980px;
+    position: relative;
+}
+
+.redes_sociais ul li{
+    display: inline-block;
+    padding-left: 5%;
+    list-style: none;
+    float: right;
+}
+
+.redes_sociais{
+    width: 50%;
+    float: right;
+    margin-right: 5px;
+}
+
+/* _____________________________ */
+
+.header02{
+    background-color: #ffffff;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+
+.main02{
+    width: 100%;
+    height: 85px;
+    border-bottom: 3px solid #8b8b8b31;
+}
+
+.menu ul{
+    padding-left: 5px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 5px;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+    transition: 0.8s;
+}
+
+.menu ul li:hover{
+    border-bottom: 4px solid #00bac6 ;
+    height: 48px;
+    transition: 0.8s;
+}
+.menu{
+    width: 60%;
+    float: left;
+}
+
+.busca{
+    width: 35%;
+    float: right;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.busca input{
+    float: right;
+    margin-top: 04px;
+    padding: 10px;
+    max-width: 155px;
+    background-image: url('./img/png/icone_busca.png');
+    background-size: 25px;
+    background-repeat: no-repeat ;
+    background-position: 97%;
+    border: 1px solid #8b8b8b29;
+}
+
