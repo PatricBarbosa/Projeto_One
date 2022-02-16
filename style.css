@@ -119,12 +119,12 @@ button.slick-prev{
     height: 150px;
     z-index: 9;
     background-image: url('./img/png/prev.png');
-    background-size: 80%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-color: transparent;
     position: absolute;
-    top: 27%;
-    left: 2%;
+    top: 32%;
+    left: 5%;
 }
 
 button.slick-next{
@@ -134,10 +134,10 @@ button.slick-next{
     height: 150px;
     z-index: 9;
     background-image: url('./img/png/next.png');
-    background-size: 80%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-color: transparent;
     position: absolute;
-    top: 27%;
-    right: 2%;
+    top: 32%;
+    right: 0.1px;
 }
