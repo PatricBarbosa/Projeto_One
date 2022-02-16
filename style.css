@@ -51,7 +51,6 @@ body{
 /* _____________________________ */
 
 .header02{
-    background-color: #ffffff;
     max-width: 980px;
     margin: 0 auto;
     padding-top: 18px;
@@ -82,14 +81,9 @@ body{
 
 .menu ul li a:hover{
     color: #00bac6;
-    transition: 0.8s;
+    border-bottom: 4px solid #00bac6 ;
 }
 
-.menu ul li:hover{
-    border-bottom: 4px solid #00bac6 ;
-    height: 48px;
-    transition: 0.8s;
-}
 .menu{
     width: 60%;
     float: left;
@@ -114,3 +108,36 @@ body{
     border: 1px solid #8b8b8b29;
 }
 
+.slides{
+    max-height: 500px;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 100px;
+    height: 150px;
+    z-index: 9;
+    background-image: url('./img/png/prev.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 27%;
+    left: 2%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 100px;
+    height: 150px;
+    z-index: 9;
+    background-image: url('./img/png/next.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 27%;
+    right: 2%;
+}
