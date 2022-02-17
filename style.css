@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
 #eu{
@@ -141,3 +142,30 @@ button.slick-next{
     top: 32%;
     right: 0.1px;
 }
+
+/* ------------------------------------------------------- */
+
+.container{
+    margin: auto;
+    max-width: 980px;
+}
+
+.texto-destaque{
+    text-align: center;
+    color: #8b8b8b;
+}
+
+.texto-destaque strong{
+    color: #00bac6;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.texto-destaque p{
+    font-size: 0.9rem;
+}
+
+
